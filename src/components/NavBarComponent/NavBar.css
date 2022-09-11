@@ -1,0 +1,80 @@
+/* This WIll Not Change Link to or a href Text Color*/
+a,
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fixed-navigation-bar-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 0;
+    transition: all 1s ease-in-out;
+    z-index: 1000;
+}
+
+.fixed-navigation-bar-section .max-width {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.fixed-navigation-bar-section .left-side-section {
+    margin-left: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.fixed-navigation-bar-section .left-side-section img {
+    display: flex;
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(5);
+}
+
+.fixed-navigation-bar-section .right-side-section {
+    display: flex;
+}
+
+.fixed-navigation-bar-section .right-side-section .right-side-option-text {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.fixed-navigation-bar-section .hamburger-menu-btn-container {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+    .fixed-navigation-bar-section .right-side-section {
+        position: fixed;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 0;
+        left: -120%;
+        height: 100vh;
+        width: 100%;
+        font-size: 30px;
+        padding: 30px 0;
+        transition: all 0.6s ease-in-out;
+        background-color: rgb(0,0,0,0.6) !important;
+        text-align: center;
+    }
+
+    .fixed-navigation-bar-section .right-side-section .right-side-option-text {
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+    .fixed-navigation-bar-section .hamburger-menu-btn-container {
+        display: block;
+        margin-right: 10px;
+        z-index: 1000;
+    }
+}
