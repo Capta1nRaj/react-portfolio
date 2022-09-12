@@ -1,6 +1,7 @@
-import React from 'react'
-import IntroComponent from '../components/IntroComponent/IntroComponent'
-import NavBar from '../components/NavBarComponent/NavBar'
+import React from "react";
+import AboutMe from "../components/AboutMeComponent/AboutMe";
+import IntroComponent from "../components/IntroComponent/IntroComponent";
+import NavBar from "../components/NavBarComponent/NavBar";
 
 function HomePage() {
     return (
@@ -18,11 +19,16 @@ function HomePage() {
                 navBarOption5="projects"
                 navBarOption6="contact"/>
             <IntroComponent
-                backgroundImage={require("../images/intro-component-images/banner3.jpg")}
+                backgroundImage={require("../images/intro-component-images/banner.jpg")}
                 IntroComponentFontFamily="Mabook"
-                profession={["Front End Web Dev", "YouTuber", "Gamer", "Freelancer"]}/>
+                />
+            <AboutMe
+                headingTextFontFamily="Mabook"
+                headingText="Self appraisal"
+                headingColor="red"
+                />
         </div>
-    )
+    );
 }
 
-export default HomePage
+export default HomePage;

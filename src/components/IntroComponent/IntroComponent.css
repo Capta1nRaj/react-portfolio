@@ -75,7 +75,7 @@
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:420px) {
     .intro-component-section .my-intro-text-container {
         padding: 0;
         line-height: 40px !important;
@@ -91,5 +91,4 @@
     .intro-component-section .line-3 {
         font-size: 20px !important;
     }
-
 }
