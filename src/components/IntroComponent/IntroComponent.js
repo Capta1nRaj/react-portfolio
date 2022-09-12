@@ -6,7 +6,7 @@ import TypedComponent from "../TypedComponent/TypedComponent";
 function IntroComponent(props) {
   return (
     <div>
-      <section className="intro-component-section" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
+      <section className="intro-component-section" style={{ backgroundImage: `url(${props.backgroundImage})`}}>
         <div className="max-width">
           <div className="my-intro-text-container" style={{ fontFamily: props.IntroComponentFontFamily }}>
             <div className="line-1">Hey Fellas</div>

@@ -6,7 +6,7 @@ import "./AboutMe.css";
 function AboutMe(props) {
     return (
         <div>
-            <section className="about-me-section">
+            <section className="about-me-section" style={{ backgroundColor:props.aboutMeBackgroundColor }}>
                 <div className="max-width">
                     <div className="heading-text-container" style={{ fontFamily: props.headingTextFontFamily, color: props.headingColor }}>
                         <div>{props.headingText}</div>

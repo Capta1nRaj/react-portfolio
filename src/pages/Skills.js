@@ -3,7 +3,7 @@ import AboutMe from '../components/AboutMeComponent/AboutMe'
 import NavBar from '../components/NavBarComponent/NavBar'
 import SkillsSection from '../components/SkillsComponent/SkillsSection'
 
-function AboutUs() {
+function Skills() {
     return (
         <div>
             <NavBar
@@ -19,6 +19,7 @@ function AboutUs() {
                 navBarOption5="projects"
                 navBarOption6="contact"/>
                 <AboutMe
+                aboutMeBackgroundColor="white"
                 headingTextFontFamily="Mabook"
                 headingText="About Me"
                 headingColor="red"
@@ -32,4 +33,4 @@ function AboutUs() {
     )
 }
 
-export default AboutUs
+export default Skills

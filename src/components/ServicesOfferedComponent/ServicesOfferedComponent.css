@@ -1,0 +1,97 @@
+.services-offered {
+    padding: 100px 50px;
+    background-color: white;
+}
+
+.services-offered .max-width {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.services-offered .services-offered-heading-container {
+    text-align: center;
+}
+
+.services-offered .first-text {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.services-offered .second-text {
+    font-family: "Mont-ExtraLightDEMO";
+    font-weight: bold;
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.services-offered .services-names-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.services-offered .services-names-container .services-boxes{
+    border: 1px solid black;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.46);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    background-color: #222;
+    color: white;
+}
+
+.services-offered .services-names-container .services-boxes:hover{
+    border: 1px solid red;
+    box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.46);
+    cursor: pointer;
+    padding: 0;
+    transform: scale(1.2);
+    background-color: black;
+}
+
+.services-offered .services-names-container .services-boxes:hover .fontAwesome-class,
+.services-offered .services-names-container .services-boxes:hover .about-services-section{
+    color: white;
+}
+
+.services-offered .services-names-container .services-boxes:hover .heading-section{
+    color: crimson;
+}
+
+.services-offered .services-names-container .image-section{
+    margin-top: 10px;
+    color: crimson;
+}
+
+.services-offered .services-names-container .heading-section {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.services-offered .services-names-container .about-services-section{
+    font-family: "Mont-ExtraLightDEMO";
+    font-weight: bold;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    color: #cdcccc;
+}
+
+@media (max-width:970px) {
+    .services-offered .services-names-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:700px) {
+    .services-offered .services-names-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:420px) {
+    .services-offered {
+        padding: 100px 10px;
+    }
+}
