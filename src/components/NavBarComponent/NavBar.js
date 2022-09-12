@@ -150,6 +150,9 @@ function NavBar(props) {
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption6TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option6">
               <Link to="/contact">{props.navBarOption6}</Link>
             </div>
+            <div style={{display:"none", filter: dropShadowToNavBarText, textDecoration: props.navBarOption6TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option6">
+              <Link to="/react-portfolio"></Link>
+            </div>
           </div>
           <div
             style={{ color: hamburgerMenuColor }}

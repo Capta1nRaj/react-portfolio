@@ -44,6 +44,12 @@ function App() {
             </>
           }
           ></Route>
+          <Route exact="exact" path="/react-portfolio" key={5} element={
+            <>
+              <HomePage />
+            </>
+          }
+          ></Route>
         </Routes>
       </Router>
     </div>
