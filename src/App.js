@@ -14,7 +14,7 @@ function App() {
             </>
           }
           ></Route>
-          <Route exact="exact" path="/about" key={1} element={
+          <Route exact="exact" path="/skills" key={1} element={
             <>
               <AboutUs />
             </>

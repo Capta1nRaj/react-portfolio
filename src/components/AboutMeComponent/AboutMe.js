@@ -17,10 +17,10 @@ function AboutMe(props) {
                         </div>
                         <div className="about-me-text-container">
                             <div className="line-1"> My Name Is <span style={{ color: "red" }}>Priyal Raj</span> & I Am <span style={{ color: "red" }}><TypedComponent profession={["Front End Web Dev", "YouTuber", "Gamer", "Freelancer"]} /></span> </div>
-                            <div className="line-2">An enthusiastic engineering fresher who is a self-starter and capable to use technical skills for the betterment of the organization. A bachelor's degree in Computer Science Engineering has enhanced my proficiency in Front End Web Developer and looking forward to work in a competitive environment that enhances overall learning.</div>
-                            <div className="line-3">
-                                <ButtonComponent hrefLink={"https://app.flowcv.com/resume-feedback/el1csjQQnr3RQqv8YK7UP"} border="1px solid red" backgroundColor="red" onHoverBackGroundColor="transparent" color="white" onHoverColor="red" padding="15px 20px" borderRadius="6px" fontFamily="Mont-HeavyDEMO" fontSize="20px" transition="all 0.4s ease-in-out" buttonText="View Resume" />
-                                <ButtonComponent hrefLink={require("../../documents/resume/resume.pdf")} border="1px solid red" backgroundColor="red" onHoverBackGroundColor="transparent" color="white" onHoverColor="red" padding="15px 20px" borderRadius="6px" fontFamily="Mont-HeavyDEMO" fontSize="20px" transition="all 0.4s ease-in-out" buttonText="Download Resume" />
+                            <div className="line-2">{props.aboutMeText}</div>
+                            <div className="line-3" style={{ display: props.buttonDisplay }}>
+                                <span style={{ display: props.button1Display }}> <ButtonComponent hrefLink={"https://app.flowcv.com/resume-feedback/el1csjQQnr3RQqv8YK7UP"} border="1px solid red" backgroundColor="red" onHoverBackGroundColor="transparent" color="white" onHoverColor="red" padding="15px 20px" borderRadius="6px" fontFamily="Mont-HeavyDEMO" fontSize="20px" transition="all 0.4s ease-in-out" buttonText="View Resume" /> </span>
+                                <span style={{ display: props.button2Display }}> <ButtonComponent hrefLink={require("../../documents/resume/resume.pdf")} border="1px solid red" backgroundColor="red" onHoverBackGroundColor="transparent" color="white" onHoverColor="red" padding="15px 20px" borderRadius="6px" fontFamily="Mont-HeavyDEMO" fontSize="20px" transition="all 0.4s ease-in-out" buttonText="Download Resume" /> </span>
                             </div>
                         </div>
                     </div>

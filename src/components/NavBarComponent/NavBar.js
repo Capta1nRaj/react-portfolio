@@ -136,7 +136,7 @@ function NavBar(props) {
               <Link to="/">{props.navBarOption1}</Link>
             </div>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption2TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option2">
-              <Link to="/about">{props.navBarOption2}</Link>
+              <Link to="/skills">{props.navBarOption2}</Link>
             </div>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption3TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option3">
               <Link to="/services">{props.navBarOption3}</Link>

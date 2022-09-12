@@ -34,6 +34,7 @@
     font-size: 24px;
     font-family: Mabook;
     color: black;
+    margin-bottom: 20px;
 }
 
 .about-me-section .about-me-text-container .line-2 {
@@ -41,13 +42,13 @@
     font-family: Mont-ExtraLightDEMO;
     font-size: 18px;
     font-weight: bold;
-    margin: 20px 0;
 }
 
 .about-me-section .about-me-container-with-image .about-me-text-container .line-3 {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin-top: 20px;
 }
 
 @media (max-width:1015px) {
@@ -79,7 +80,7 @@
     }
 
     .about-me-section .about-me-container-with-image img {
-        width: 100px;
+        width: 150px;
     }
 
     .about-me-section .about-me-container-with-image .about-me-text-container .line-3 {

@@ -13,7 +13,7 @@ function HomePage() {
                 navBarFontFamily="Mabook"
                 rightSectionFontSize="24px"
                 navBarOption1="home"
-                navBarOption2="about"
+                navBarOption2="skills"
                 navBarOption3="services"
                 navBarOption4="pricing"
                 navBarOption5="projects"
@@ -26,6 +26,7 @@ function HomePage() {
                 headingTextFontFamily="Mabook"
                 headingText="Self appraisal"
                 headingColor="red"
+                aboutMeText="An enthusiastic engineering fresher who is a self-starter and capable to use technical skills for the betterment of the organization. A bachelor's degree in Computer Science Engineering has enhanced my proficiency in Front End Web Developer and looking forward to work in a competitive environment that enhances overall learning."
                 />
         </div>
     );
