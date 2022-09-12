@@ -5,6 +5,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     color: inherit;
+    transition: all 0.4s ease-in-out;
 }
 
 .fixed-navigation-bar-section {
@@ -16,6 +17,7 @@ a:hover {
     padding: 10px 0;
     transition: all 1s ease-in-out;
     z-index: 1000;
+    text-transform: capitalize;
 }
 
 .fixed-navigation-bar-section .max-width {

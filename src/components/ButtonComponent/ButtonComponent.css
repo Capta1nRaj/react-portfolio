@@ -1,0 +1,13 @@
+@media (max-width:740px) {
+    .button-container button {
+        font-size: 15px !important;
+        padding: 10px 15px !important;
+    }
+}
+
+@media (max-width:550px) {
+    .button-container button {
+        font-size: 15px !important;
+        padding: 5px 10px !important;
+    }
+}

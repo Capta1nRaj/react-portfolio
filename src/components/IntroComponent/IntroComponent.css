@@ -1,0 +1,95 @@
+.intro-component-section {
+    display: flex;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+    align-items: center;
+}
+
+.intro-component-section .max-width {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    align-items: center;
+    margin: 200px;
+}
+
+.intro-component-section .my-intro-text-container {
+    color: white;
+    padding: 0 60px;
+    line-height: 70px;
+}
+
+.intro-component-section .my-intro-text-container .line-1 {
+    font-size: 40px;
+}
+.intro-component-section .my-intro-text-container .line-2 {
+    font-size: 60px;
+}
+.intro-component-section .my-intro-text-container .line-3 {
+    font-size: 40px;
+}
+
+@media (max-width:1150px) {
+    .intro-component-section .max-width {
+        margin: auto;
+    }
+}
+
+@media (max-width:740px) {
+    .intro-component-section .my-intro-text-container {
+        line-height: 50px;
+    }
+    .intro-component-section .my-intro-text-container .line-1 {
+        font-size: 30px;
+    }
+    .intro-component-section .my-intro-text-container .line-2 {
+        font-size: 40px;
+    }
+    .intro-component-section .my-intro-text-container .line-3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:550px) {
+    .intro-component-section .my-intro-text-container {
+        line-height: 40px !important;
+    }
+
+    .intro-component-section .line-1 {
+        font-size: 20px !important;
+    }
+
+    .intro-component-section .line-2 {
+        font-size: 30px !important;
+    }
+    .intro-component-section .line-3 {
+        font-size: 20px !important;
+    }
+
+    .intro-component-section .my-intro-text-container .button {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+}
+
+@media (max-width:375px) {
+    .intro-component-section .my-intro-text-container {
+        padding: 0;
+        line-height: 40px !important;
+    }
+
+    .intro-component-section .line-1 {
+        font-size: 20px !important;
+    }
+
+    .intro-component-section .line-2 {
+        font-size: 25px !important;
+    }
+    .intro-component-section .line-3 {
+        font-size: 20px !important;
+    }
+
+}
