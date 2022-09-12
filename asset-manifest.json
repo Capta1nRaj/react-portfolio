@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.a0c4e3e5.css",
-    "main.js": "/react-portfolio/static/js/main.b176eeee.js",
+    "main.css": "/react-portfolio/static/css/main.b5de4d3d.css",
+    "main.js": "/react-portfolio/static/js/main.c0fdb0a5.js",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.361f04c93379b54c97ca.pdf",
     "static/media/Mont-HeavyDEMO.otf": "/react-portfolio/static/media/Mont-HeavyDEMO.a1c041a8d8e27fc771db.otf",
     "static/media/Mont-ExtraLightDEMO.otf": "/react-portfolio/static/media/Mont-ExtraLightDEMO.7500479912b782061a72.otf",
@@ -13,11 +13,11 @@
     "static/media/Responsive.png": "/react-portfolio/static/media/Responsive.dc3ed5897fa0187808bc.png",
     "static/media/Mabook.otf": "/react-portfolio/static/media/Mabook.f7753e2a3bf14efa8461.otf",
     "index.html": "/react-portfolio/index.html",
-    "main.a0c4e3e5.css.map": "/react-portfolio/static/css/main.a0c4e3e5.css.map",
-    "main.b176eeee.js.map": "/react-portfolio/static/js/main.b176eeee.js.map"
+    "main.b5de4d3d.css.map": "/react-portfolio/static/css/main.b5de4d3d.css.map",
+    "main.c0fdb0a5.js.map": "/react-portfolio/static/js/main.c0fdb0a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0c4e3e5.css",
-    "static/js/main.b176eeee.js"
+    "static/css/main.b5de4d3d.css",
+    "static/js/main.c0fdb0a5.js"
   ]
 }
