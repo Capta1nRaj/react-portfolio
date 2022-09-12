@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.84c6696f.css",
-    "main.js": "/react-portfolio/static/js/main.b0cb49bb.js",
+    "main.css": "/react-portfolio/static/css/main.d75cb5bc.css",
+    "main.js": "/react-portfolio/static/js/main.49012a9e.js",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.361f04c93379b54c97ca.pdf",
     "static/media/Mont-HeavyDEMO.otf": "/react-portfolio/static/media/Mont-HeavyDEMO.a1c041a8d8e27fc771db.otf",
     "static/media/Mont-ExtraLightDEMO.otf": "/react-portfolio/static/media/Mont-ExtraLightDEMO.7500479912b782061a72.otf",
-    "static/media/banner3.jpg": "/react-portfolio/static/media/banner3.fa0c592bf4d8e2fea2f3.jpg",
+    "static/media/banner.jpg": "/react-portfolio/static/media/banner.fa0c592bf4d8e2fea2f3.jpg",
     "static/media/logo.png": "/react-portfolio/static/media/logo.b6fa9cf4faa4a82efa3d.png",
+    "static/media/profile-picture.jpg": "/react-portfolio/static/media/profile-picture.fc4c452f0916ca9e0f19.jpg",
     "static/media/Mabook.otf": "/react-portfolio/static/media/Mabook.f7753e2a3bf14efa8461.otf",
     "index.html": "/react-portfolio/index.html",
-    "main.84c6696f.css.map": "/react-portfolio/static/css/main.84c6696f.css.map",
-    "main.b0cb49bb.js.map": "/react-portfolio/static/js/main.b0cb49bb.js.map"
+    "main.d75cb5bc.css.map": "/react-portfolio/static/css/main.d75cb5bc.css.map",
+    "main.49012a9e.js.map": "/react-portfolio/static/js/main.49012a9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.84c6696f.css",
-    "static/js/main.b0cb49bb.js"
+    "static/css/main.d75cb5bc.css",
+    "static/js/main.49012a9e.js"
   ]
 }
