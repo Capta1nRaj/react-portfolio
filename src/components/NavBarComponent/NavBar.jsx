@@ -18,13 +18,13 @@ function NavBar(props) {
   // Function For Scroll And Resize Event Listener
   function scrollAndResizeEventListener() {
     // For Screen Width >700
-    if (window.innerWidth > 700 && window.scrollY > 200) {
+    if (window.innerWidth > 700 && window.scrollY > 100) {
       setnavBarBackgroundColor("black");
       setnavBarTextColor("white");
       setrightSideSectionBackgroundColorChange("transparent");
       setdropShadowToNavBarText("drop-shadow(white 0px 0px 10px)");
       setnormalTransitionAnimation("all 1s ease-in-out");
-    } else if (window.innerWidth > 700 && window.scrollY < 200) {
+    } else if (window.innerWidth > 700 && window.scrollY < 100) {
       setnavBarBackgroundColor("transparent");
       setnavBarTextColor("crimson");
       setrightSideSectionBackgroundColorChange("transparent");
@@ -33,14 +33,14 @@ function NavBar(props) {
     }
 
     // For Screen Width <700
-    if (window.innerWidth < 700 && window.scrollY < 200) {
+    if (window.innerWidth < 700 && window.scrollY < 100) {
       setnavBarBackgroundColor("white");
       setnavBarTextColor("white");
       setrightSideSectionBackgroundColorChange("rgb(0,0,0,0.6");
       sethamburgerMenuColor("crimson");
       setdropShadowToNavBarText("drop-shadow(black 0px 0px 10px)");
       setnormalTransitionAnimation("all 1s ease-in-out");
-    } else if (window.innerWidth < 700 && window.scrollY > 200) {
+    } else if (window.innerWidth < 700 && window.scrollY > 100) {
       setnavBarBackgroundColor("black");
       setnavBarTextColor("crimson");
       setrightSideSectionBackgroundColorChange("rgb(0,0,0,0.6");
@@ -89,33 +89,33 @@ function NavBar(props) {
 
   // Mouse Hover Color Change
   function MouseOver(event) {
-    // For Screen>700 & Scroll>200
-    if (window.innerWidth > 700 && window.scrollY > 200) {
+    // For Screen>700 & Scroll>100
+    if (window.innerWidth > 700 && window.scrollY > 100) {
       event.target.style.color = "crimson";
-    } else if (window.innerWidth > 700 && window.scrollY < 200) {
+    } else if (window.innerWidth > 700 && window.scrollY < 100) {
       event.target.style.color = "black";
     }
 
-    // For Screen<700 & Scroll<200
-    if (window.innerWidth < 700 && window.scrollY > 200) {
+    // For Screen<700 & Scroll<100
+    if (window.innerWidth < 700 && window.scrollY > 100) {
       event.target.style.color = "black";
-    } else if (window.innerWidth < 700 && window.scrollY < 200) {
+    } else if (window.innerWidth < 700 && window.scrollY < 100) {
       event.target.style.color = "crimson";
     }
   }
 
   function MouseOut(event) {
-    // For Screen>700 & Scroll>200
-    if (window.innerWidth > 700 && window.scrollY > 200) {
+    // For Screen>700 & Scroll>100
+    if (window.innerWidth > 700 && window.scrollY > 100) {
       event.target.style.color = "";
-    } else if (window.innerWidth > 700 && window.scrollY < 200) {
+    } else if (window.innerWidth > 700 && window.scrollY < 100) {
       event.target.style.color = "";
     }
 
-    // For Screen<700 & Scroll<200
-    if (window.innerWidth < 700 && window.scrollY > 200) {
+    // For Screen<700 & Scroll<100
+    if (window.innerWidth < 700 && window.scrollY > 100) {
       event.target.style.color = "";
-    } else if (window.innerWidth < 700 && window.scrollY < 200) {
+    } else if (window.innerWidth < 700 && window.scrollY < 100) {
       event.target.style.color = "";
     }
   }

@@ -1,13 +1,13 @@
 import React from 'react'
-import NavBar from "../components/NavBarComponent/NavBar";
-import PlansComponent from '../components/PlansComponent/PlansComponent';
-import ServicesOfferedComponent from '../components/ServicesOfferedComponent/ServicesOfferedComponent';
+import NavBar from '../components/NavBarComponent/NavBar'
+import PlansComponent from "../components/PlansComponent/PlansComponent"
+import PreviousProjectComponent from '../components/PreviousProjectComponent/PreviousProjectComponent'
 
-function Services() {
+function Pricing() {
     return (
         <div>
             <NavBar
-                navBarOption3TextDecoration="underline"
+                navBarOption4TextDecoration="underline"
                 navBarImageWidth="48px"
                 navBarImage={require("../images/navigation-bar-component-images/logo.png")}
                 navBarFontFamily="Mabook"
@@ -18,10 +18,6 @@ function Services() {
                 navBarOption4="pricing"
                 navBarOption5="projects"
                 navBarOption6="contact"/>
-            <ServicesOfferedComponent
-            servicesOfferedFontFamily="Mabook"
-            servicesOfferedTextColor="crimson"
-            />
             <PlansComponent
             // Heading Text
             headingFontFamily="Mabook"
@@ -37,8 +33,9 @@ function Services() {
             headingCaptionFontWeight="bold"
             headingCaptionText="We Really Hope You Will Like Our Plans & Pricing, We Have Cared About Your Budget Too. We Really Hope You Will Like Our Plans & Pricing, We Have Cared About Your Budget Too."
             />
+            <PreviousProjectComponent/>
         </div>
     )
 }
 
-export default Services
+export default Pricing
