@@ -24,7 +24,7 @@ function ServicesOfferedComponent(props) {
             <section className="services-offered" style={{ fontFamily: props.servicesOfferedFontFamily }}>
                 <div className="max-width">
                     <div className="services-offered-heading-container">
-                        <div className="first-text">Services Offered</div>
+                        <div className="first-text" style={{color:props.servicesOfferedTextColor}}>Services Offered</div>
                         <div className="second-text">We Provide Limited But Best Quality Services At Best Prices In Market. Plans Prices Given Below.</div>
                     </div>
                     <div className="services-names-container">

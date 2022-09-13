@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 function NavBar(props) {
   // All UseState Function
   const [navBarBackgroundColor, setnavBarBackgroundColor] = useState("transparent");
-  const [navBarTextColor, setnavBarTextColor] = useState("red");
-  const [hamburgerMenuColor, sethamburgerMenuColor] = useState("red");
+  const [navBarTextColor, setnavBarTextColor] = useState("crimson");
+  const [hamburgerMenuColor, sethamburgerMenuColor] = useState("crimson");
   const [leftSlidePosition, setleftSlidePosition] = useState("-120%");
   const [hamburgerMenuChangeOnClick, sethamburgerMenuChangeOnClick] = useState(true);
   const [rightSideSectionBackgroundColorChange, setrightSideSectionBackgroundColorChange] = useState("transparent");
@@ -26,7 +26,7 @@ function NavBar(props) {
       setnormalTransitionAnimation("all 1s ease-in-out");
     } else if (window.innerWidth > 700 && window.scrollY < 200) {
       setnavBarBackgroundColor("transparent");
-      setnavBarTextColor("red");
+      setnavBarTextColor("crimson");
       setrightSideSectionBackgroundColorChange("transparent");
       setdropShadowToNavBarText("drop-shadow(black 0px 0px 10px)");
       setnormalTransitionAnimation("all 1s ease-in-out");
@@ -37,12 +37,12 @@ function NavBar(props) {
       setnavBarBackgroundColor("white");
       setnavBarTextColor("white");
       setrightSideSectionBackgroundColorChange("rgb(0,0,0,0.6");
-      sethamburgerMenuColor("red");
+      sethamburgerMenuColor("crimson");
       setdropShadowToNavBarText("drop-shadow(black 0px 0px 10px)");
       setnormalTransitionAnimation("all 1s ease-in-out");
     } else if (window.innerWidth < 700 && window.scrollY > 200) {
       setnavBarBackgroundColor("black");
-      setnavBarTextColor("red");
+      setnavBarTextColor("crimson");
       setrightSideSectionBackgroundColorChange("rgb(0,0,0,0.6");
       sethamburgerMenuColor("white");
       setnormalTransitionAnimation("all 1s ease-in-out");
@@ -91,7 +91,7 @@ function NavBar(props) {
   function MouseOver(event) {
     // For Screen>700 & Scroll>200
     if (window.innerWidth > 700 && window.scrollY > 200) {
-      event.target.style.color = "red";
+      event.target.style.color = "crimson";
     } else if (window.innerWidth > 700 && window.scrollY < 200) {
       event.target.style.color = "black";
     }
@@ -100,7 +100,7 @@ function NavBar(props) {
     if (window.innerWidth < 700 && window.scrollY > 200) {
       event.target.style.color = "black";
     } else if (window.innerWidth < 700 && window.scrollY < 200) {
-      event.target.style.color = "red";
+      event.target.style.color = "crimson";
     }
   }
 
@@ -131,7 +131,7 @@ function NavBar(props) {
               </Link>
             </div>
           </div>
-          <div className="right-side-section" style={{ fontSize: props.rightSectionFontSize, fontFamily: props.navBarFontFamily, color: navBarTextColor, left: leftSlidePosition, backgroundColor: rightSideSectionBackgroundColorChange, transition: normalTransitionAnimation }}>
+          <div className="right-side-section" style={{ fontSize: props.rightSectionFontSize, fontFamily: props.navBarFontFamily, color: navBarTextColor, left: leftSlidePosition, backgroundColor: rightSideSectionBackgroundColorChange, transition: normalTransitionAnimation, backdropFilter: "blur(6px)" }}>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption1TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option1">
               <Link to="/">{props.navBarOption1}</Link>
             </div>

@@ -7,7 +7,7 @@ function SkillsSection(props) {
             <section className="skills-section" style={{fontFamily:props.skillsSectionFontFamily}}>
                 <div className="max-width">
                     <div className="my-skills-text-container">
-                        <div className="my-skills-text">My Skills</div>
+                        <div className="my-skills-text" style={{color:props.mySkillsTextColor}}>My Skills</div>
                         <div className="under-my-skills-text">{props.underMySkillsText}</div>
                     </div>
                     <div className="main-section">
@@ -42,32 +42,32 @@ function SkillsSection(props) {
                         </div>
                         <div className="right-side-container">
                             <p>HTML</p>
-                            <div class="container">
-                                <div class="skills html">80%</div>
+                            <div className="container">
+                                <div className="skills html">80%</div>
                             </div>
                             <p>CSS</p>
-                            <div class="container">
-                                <div class="skills css">80%</div>
+                            <div className="container">
+                                <div className="skills css">80%</div>
                             </div>
                             <p>JavaScript</p>
-                            <div class="container">
-                                <div class="skills js">50%</div>
+                            <div className="container">
+                                <div className="skills js">50%</div>
                             </div>
                             <p>ReactJS</p>
-                            <div class="container">
-                                <div class="skills reactJS">50%</div>
+                            <div className="container">
+                                <div className="skills reactJS">50%</div>
                             </div>
                             <p>Bootstrap</p>
-                            <div class="container">
-                                <div class="skills bootstrap">60%</div>
+                            <div className="container">
+                                <div className="skills bootstrap">60%</div>
                             </div>
                             <p>Adobe PhotoShop</p>
-                            <div class="container">
-                                <div class="skills adobePhotoshop">40%</div>
+                            <div className="container">
+                                <div className="skills adobePhotoshop">40%</div>
                             </div>
                             <p>Adobe Premier Pro</p>
-                            <div class="container">
-                                <div class="skills adobePremierPro">60%</div>
+                            <div className="container">
+                                <div className="skills adobePremierPro">60%</div>
                             </div>
                         </div>
                     </div>

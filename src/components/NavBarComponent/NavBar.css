@@ -36,7 +36,7 @@ a:hover {
 
 .fixed-navigation-bar-section .left-side-section img {
     display: flex;
-    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(5);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(310deg) saturate(600%) contrast(5);
 }
 
 .fixed-navigation-bar-section .right-side-section {

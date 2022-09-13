@@ -33,34 +33,39 @@
     text-align: center;
 }
 
-.services-offered .services-names-container .services-boxes{
+.services-offered .services-names-container .services-boxes {
     border: 1px solid black;
     box-shadow: 0 0 20px 0 rgba(0,0,0,.46);
     cursor: pointer;
     transition: all 0.4s ease-in-out;
     background-color: #222;
     color: white;
+    transform: scale(1);
+    z-index: 998;
 }
 
-.services-offered .services-names-container .services-boxes:hover{
+.services-offered .services-names-container .services-boxes:hover {
     border: 1px solid red;
     box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.46);
     cursor: pointer;
     padding: 0;
     transform: scale(1.2);
     background-color: black;
+    z-index: 999;
 }
 
-.services-offered .services-names-container .services-boxes:hover .fontAwesome-class,
-.services-offered .services-names-container .services-boxes:hover .about-services-section{
+.services-offered .services-names-container .services-boxes:hover .about-services-section,
+.services-offered .services-names-container .services-boxes:hover .fontAwesome-class {
     color: white;
+    z-index: 1000;
 }
 
-.services-offered .services-names-container .services-boxes:hover .heading-section{
+.services-offered .services-names-container .services-boxes:hover .heading-section {
     color: crimson;
+    z-index: 1000;
 }
 
-.services-offered .services-names-container .image-section{
+.services-offered .services-names-container .image-section {
     margin-top: 10px;
     color: crimson;
 }
@@ -70,7 +75,7 @@
     margin: 10px 0;
 }
 
-.services-offered .services-names-container .about-services-section{
+.services-offered .services-names-container .about-services-section {
     font-family: "Mont-ExtraLightDEMO";
     font-weight: bold;
     padding: 0 10px;
@@ -87,6 +92,26 @@
 @media (max-width:700px) {
     .services-offered .services-names-container {
         grid-template-columns: 1fr;
+    }
+
+    .services-offered .services-names-container .services-boxes {
+        border: 1px solid red;
+    }
+
+    .services-offered .services-names-container .services-boxes:hover {
+        background-color: #222 !important;
+        transform: scale(1) !important;
+    }
+
+    .services-offered .services-names-container .services-boxes:hover .fontAwesome-class {
+        color: crimson;
+    }
+    .services-offered .services-names-container .services-boxes:hover .about-services-section {
+        color: #cdcccc;
+    }
+
+    .services-offered .services-names-container .services-boxes:hover .heading-section {
+        color: white;
     }
 }
 

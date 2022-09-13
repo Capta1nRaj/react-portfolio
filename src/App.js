@@ -46,7 +46,7 @@ function App() {
           ></Route>
           <Route exact="exact" path="/react-portfolio" key={5} element={
             <>
-              <Skills />
+              <HomePage />
             </>
           }
           ></Route>

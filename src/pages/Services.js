@@ -19,6 +19,7 @@ function Services() {
                 navBarOption6="contact"/>
             <ServicesOfferedComponent
             servicesOfferedFontFamily="Mabook"
+            servicesOfferedTextColor="crimson"
             />
         </div>
     )
