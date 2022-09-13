@@ -131,7 +131,7 @@ function NavBar(props) {
               </Link>
             </div>
           </div>
-          <div className="right-side-section" style={{ fontSize: props.rightSectionFontSize, fontFamily: props.navBarFontFamily, color: navBarTextColor, left: leftSlidePosition, backgroundColor: rightSideSectionBackgroundColorChange, transition: normalTransitionAnimation, backdropFilter: "blur(6px)" }}>
+          <div className="right-side-section" style={{ fontSize: props.rightSectionFontSize, fontFamily: props.navBarFontFamily, color: navBarTextColor, left: leftSlidePosition, backgroundColor: rightSideSectionBackgroundColorChange, transition: normalTransitionAnimation }}>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption1TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option1">
               <Link to="/">{props.navBarOption1}</Link>
             </div>

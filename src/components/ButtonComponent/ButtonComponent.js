@@ -16,7 +16,7 @@ function ButtonComponent(props) {
     return (
         <div>
             <section className="button-container" style={{display:props.buttonDisplay}}>
-                <a href={props.hrefLink} target="_blank" rel="noopener noreferrer"><button
+                <a href={props.hrefLink} target={props.target} rel={props.rel}><button
                     style={{
                         border: props.border,
                         backgroundColor: props.backgroundColor,

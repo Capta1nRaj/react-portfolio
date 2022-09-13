@@ -1,0 +1,142 @@
+.plans-component-section {
+    padding: 100px 50px;
+}
+
+.plans-component-section .max-width {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.plans-component-section .plans-component-heading-container {
+    text-align: center;
+}
+
+.plans-component-section .plans-list-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.plans-component-section .plans-list-section .plans-list-boxes {
+    border: 1px solid #000;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 46%);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.plans-component-section .plans-list-section .plan-numbering {
+    display: grid;
+    font-family: "Mont-HeavyDEMO";
+    font-size: 55px;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    padding: 5px;
+    font-weight: 600;
+    margin: 20px auto 0;
+    align-items: center;
+    color: black;
+    background-color: rgba(132,144,255,.1);
+    border: 30px solid rgba(132,144,255,.1);
+}
+
+.plans-component-section .plans-list-section .plan-name {
+    font-family: Mont-ExtraLightDEMO;
+    font-weight: bold;
+    color: grey;
+    margin: 40px 0;
+}
+
+.plans-component-section .plans-list-section .plan-details {
+    font-family: Mont-ExtraLightDEMO;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.plans-component-section .plans-list-section .plan-details hr {
+    width: 80%;
+}
+
+.plans-component-section .plans-list-section .plan-price {
+    font-family: Mont-HeavyDEMO;
+    font-size: 32px;
+    margin: 0 auto 20px;
+    padding: 15px 20px;
+}
+
+.plans-component-section .plans-list-section .plan-buy-now-button {
+    display: none;
+    margin: 0 auto 20px;
+}
+
+/* Hover Section */
+
+.plans-component-section .plans-list-section .plans-list-boxes:hover .plan-price {
+    display: none;
+}
+
+.plans-component-section .plans-list-section .plans-list-boxes:hover .plan-buy-now-button {
+    display: block;
+}
+
+.plans-component-section .plans-list-section .plans-list-boxes:hover {
+    background-color: black;
+    transform: scale(1.2);
+    box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.46);
+}
+
+.plans-component-section .plans-list-section .plans-list-boxes:hover .plan-details,
+.plans-component-section .plans-list-section .plans-list-boxes:hover .plan-name,
+.plans-component-section .plans-list-section .plans-list-boxes:hover .plan-numbering,
+.plans-component-section .plans-list-section .plans-list-boxes:hover .plan-price {
+    color: white;
+}
+
+.plans-component-section .plans-list-section .plans-list-boxes:hover .plan-numbering {
+    background-color: rgba(0, 0, 0, 1);
+    border: 30px solid rgba(220, 20, 60, 1);
+}
+
+@media (max-width:1200px) {
+    .plans-component-section .plans-list-section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:740px) {
+    .plans-component-section .plans-list-section .plan-price {
+        padding: 0;
+        margin: 0 auto 40px;
+    }
+
+    .plans-component-section .plans-list-section .plans-list-boxes {
+        border: 1px solid red;
+    }
+
+    .plans-component-section .plans-list-section .plans-list-boxes:hover {
+        transform: scale(1) !important;
+    }
+
+    .plans-component-section .plans-list-section .plans-list-boxes .plan-buy-now-button {
+        display: block;
+    }
+
+    .plans-component-section .plans-list-section .plans-list-boxes:hover .plan-price {
+        display: block;
+    }
+}
+
+@media (max-width:640px) {
+    .plans-component-section .plans-list-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:420px) {
+    .plans-component-section {
+        padding: 100px 10px;
+    }
+}
