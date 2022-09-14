@@ -1,0 +1,87 @@
+.previous-project-component-section {
+    padding: 100px 50px;
+}
+
+.previous-project-component-section .max-width {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.previous-project-component-section .heading-container {
+    text-align: center;
+}
+
+.previous-project-component-section .projects-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.previous-project-component-section .projects-list-container .projects-boxes {
+    border: 1px solid black;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 46%);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.previous-project-component-section .projects-list-container .projects-boxes .image-preview-container {
+    margin-top: 40px;
+}
+
+.previous-project-component-section .projects-list-container .projects-boxes .project-name {
+    font-family: Mabook;
+    font-size: 24px;
+    margin: 20px 0;
+    color: crimson;
+}
+
+.previous-project-component-section .projects-list-container .projects-boxes .about-project {
+    text-align: justify;
+    font-family: "Mont-ExtraLightDEMO";
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.previous-project-component-section .projects-list-container .projects-boxes .buttonComponent {
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 20px auto 40px;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* Hover Effect */
+.previous-project-component-section .projects-list-container .projects-boxes:hover {
+    transform: scale(1.2);
+    border: 1px solid crimson;
+    box-shadow: 0 0 20px 0 rgba(220, 20, 60, 0.46);
+}
+
+@media (max-width:1250px) {
+    .previous-project-component-section .projects-list-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:900px) {
+    .previous-project-component-section .projects-list-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:740px) {
+    .previous-project-component-section .projects-list-container .projects-boxes:hover {
+        transform: scale(1);
+    }
+}
+
+@media (max-width:420px) {
+    .previous-project-component-section {
+        padding: 100px 10px;
+    }
+}

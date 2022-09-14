@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBarComponent/NavBar'
 import PlansComponent from "../components/PlansComponent/PlansComponent"
-import PreviousProjectComponent from '../components/PreviousProjectComponent/PreviousProjectComponent'
+import ProjectsComponent from '../components/ProjectsComponent/ProjectsComponent'
 
 function Pricing() {
     return (
@@ -19,6 +19,7 @@ function Pricing() {
                 navBarOption5="projects"
                 navBarOption6="contact"/>
             <PlansComponent
+            backgroundColor="white"
             // Heading Text
             headingFontFamily="Mabook"
             headingColor="crimson"
@@ -33,7 +34,21 @@ function Pricing() {
             headingCaptionFontWeight="bold"
             headingCaptionText="We Really Hope You Will Like Our Plans & Pricing, We Have Cared About Your Budget Too. We Really Hope You Will Like Our Plans & Pricing, We Have Cared About Your Budget Too."
             />
-            <PreviousProjectComponent/>
+            <ProjectsComponent
+            headingFontFamily="Mabook"
+            headingColor="crimson"
+            headingFontSize="40px"
+            headingMargin="0 0 0 0"
+            headingText="Our Projects"
+            // Heading Caption
+            headingCaptionFontFamily="Mont-ExtraLightDEMO"
+            headingCaptionColor="gray"
+            headingCaptaionFontSize="16px"
+            headingCaptionMargin="20px 0 50px 0"
+            headingCaptionFontWeight="bold"
+            headingCaptionText="Here Are Few Of My Porjects I've Worked On Recently."
+            sliceValue= "6"
+            />
         </div>
     )
 }

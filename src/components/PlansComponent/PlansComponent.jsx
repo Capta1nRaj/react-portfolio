@@ -5,7 +5,7 @@ import ButtonComponent from "../ButtonComponent/ButtonComponent";
 function PlansComponent(props) {
     return (
         <div>
-            <section className="plans-component-section">
+            <section className="plans-component-section" style={{backgroundColor:props.backgroundColor}}>
                 <div className="max-width">
                     <div className="plans-component-heading-container">
                         <div className="first-line" style={{ fontFamily: props.headingFontFamily, color: props.headingColor, fontSize: props.headingFontSize, margin: props.headingMargin }}>
@@ -36,7 +36,7 @@ function PlansComponent(props) {
                             </div>
                             <div className="plan-buy-now-button">
                                 <ButtonComponent
-                                style={{"height" : "30px", "width" : "30px"}}
+                                    style={{"height" : "30px", "width" : "30px"}}
                                     hrefLink={"#"}
                                     border="1px solid red"
                                     backgroundColor="crimson"
