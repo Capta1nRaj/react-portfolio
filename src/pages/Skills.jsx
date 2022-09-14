@@ -11,14 +11,8 @@ function Skills() {
                 navBarImageWidth="48px"
                 navBarImage={require("../images/navigation-bar-component-images/logo.png")}
                 navBarFontFamily="Mabook"
-                rightSectionFontSize="24px"
-                navBarOption1="home"
-                navBarOption2="skills"
-                navBarOption3="services"
-                navBarOption4="pricing"
-                navBarOption5="projects"
-                navBarOption6="contact"/>
-                <AboutMe
+                rightSectionFontSize="24px"/>
+            <AboutMe
                 aboutMeBackgroundColor="white"
                 headingTextFontFamily="Mabook"
                 headingText="About Me"
@@ -26,7 +20,7 @@ function Skills() {
                 buttonDisplay="none"
                 aboutMeText="I am A Front End Web Developer, and also a Gaming Content Creator on YouTube, but also worked with many other platforms like Rooter, & Moj, and with few other new brands. Currently I have learned HTML, CSS, JS, jQuery, Bootstrap. Currently learning React JS too, but as you can see this project is made on React JS. My future plan is to become MERN Stack. Even I Know Photoshop, Premier Pro, & a little bit After Effects."
                 />
-                <SkillsSection
+            <SkillsSection
                 skillsSectionFontFamily="Mabook"
                 mySkillsTextColor="crimson"
                 />

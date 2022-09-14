@@ -11,13 +11,7 @@ function Services() {
                 navBarImageWidth="48px"
                 navBarImage={require("../images/navigation-bar-component-images/logo.png")}
                 navBarFontFamily="Mabook"
-                rightSectionFontSize="24px"
-                navBarOption1="home"
-                navBarOption2="skills"
-                navBarOption3="services"
-                navBarOption4="pricing"
-                navBarOption5="projects"
-                navBarOption6="contact"/>
+                rightSectionFontSize="24px"/>
             <ServicesOfferedComponent
             servicesOfferedFontFamily="Mabook"
             servicesOfferedTextColor="crimson"

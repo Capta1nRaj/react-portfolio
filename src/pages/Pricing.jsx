@@ -11,13 +11,7 @@ function Pricing() {
                 navBarImageWidth="48px"
                 navBarImage={require("../images/navigation-bar-component-images/logo.png")}
                 navBarFontFamily="Mabook"
-                rightSectionFontSize="24px"
-                navBarOption1="home"
-                navBarOption2="skills"
-                navBarOption3="services"
-                navBarOption4="pricing"
-                navBarOption5="projects"
-                navBarOption6="contact"/>
+                rightSectionFontSize="24px"/>
             <PlansComponent
             backgroundColor="white"
             // Heading Text
@@ -47,7 +41,7 @@ function Pricing() {
             headingCaptionMargin="20px 0 50px 0"
             headingCaptionFontWeight="bold"
             headingCaptionText="Here Are Few Of My Porjects I've Worked On Recently."
-            sliceValue= "6"
+            sliceValue= "3"
             />
         </div>
     )

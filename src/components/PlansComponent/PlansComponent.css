@@ -40,6 +40,7 @@
     color: black;
     background-color: rgba(132,144,255,.1);
     border: 30px solid rgba(132,144,255,.1);
+    transition: all 0.4s ease-in-out;
 }
 
 .plans-component-section .plans-list-section .plan-name {

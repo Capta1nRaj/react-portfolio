@@ -18,13 +18,13 @@ function NavBar(props) {
   // Function For Scroll And Resize Event Listener
   function scrollAndResizeEventListener() {
     // For Screen Width >700
-    if (window.innerWidth > 700 && window.scrollY > 100) {
+    if (window.innerWidth > 700 && window.scrollY > 50) {
       setnavBarBackgroundColor("black");
       setnavBarTextColor("white");
       setrightSideSectionBackgroundColorChange("transparent");
       setdropShadowToNavBarText("drop-shadow(white 0px 0px 10px)");
       setnormalTransitionAnimation("all 1s ease-in-out");
-    } else if (window.innerWidth > 700 && window.scrollY < 100) {
+    } else if (window.innerWidth > 700 && window.scrollY < 50) {
       setnavBarBackgroundColor("transparent");
       setnavBarTextColor("crimson");
       setrightSideSectionBackgroundColorChange("transparent");
@@ -33,14 +33,14 @@ function NavBar(props) {
     }
 
     // For Screen Width <700
-    if (window.innerWidth < 700 && window.scrollY < 100) {
+    if (window.innerWidth < 700 && window.scrollY < 50) {
       setnavBarBackgroundColor("white");
       setnavBarTextColor("white");
       setrightSideSectionBackgroundColorChange("rgb(0,0,0,0.6");
       sethamburgerMenuColor("crimson");
       setdropShadowToNavBarText("drop-shadow(black 0px 0px 10px)");
       setnormalTransitionAnimation("all 1s ease-in-out");
-    } else if (window.innerWidth < 700 && window.scrollY > 100) {
+    } else if (window.innerWidth < 700 && window.scrollY > 50) {
       setnavBarBackgroundColor("black");
       setnavBarTextColor("crimson");
       setrightSideSectionBackgroundColorChange("rgb(0,0,0,0.6");
@@ -89,33 +89,33 @@ function NavBar(props) {
 
   // Mouse Hover Color Change
   function MouseOver(event) {
-    // For Screen>700 & Scroll>100
-    if (window.innerWidth > 700 && window.scrollY > 100) {
+    // For Screen>700 & Scroll>50
+    if (window.innerWidth > 700 && window.scrollY > 50) {
       event.target.style.color = "crimson";
-    } else if (window.innerWidth > 700 && window.scrollY < 100) {
+    } else if (window.innerWidth > 700 && window.scrollY < 50) {
       event.target.style.color = "black";
     }
 
-    // For Screen<700 & Scroll<100
-    if (window.innerWidth < 700 && window.scrollY > 100) {
+    // For Screen<700 & Scroll<50
+    if (window.innerWidth < 700 && window.scrollY > 50) {
       event.target.style.color = "black";
-    } else if (window.innerWidth < 700 && window.scrollY < 100) {
+    } else if (window.innerWidth < 700 && window.scrollY < 50) {
       event.target.style.color = "crimson";
     }
   }
 
   function MouseOut(event) {
-    // For Screen>700 & Scroll>100
-    if (window.innerWidth > 700 && window.scrollY > 100) {
+    // For Screen>700 & Scroll>50
+    if (window.innerWidth > 700 && window.scrollY > 50) {
       event.target.style.color = "";
-    } else if (window.innerWidth > 700 && window.scrollY < 100) {
+    } else if (window.innerWidth > 700 && window.scrollY < 50) {
       event.target.style.color = "";
     }
 
-    // For Screen<700 & Scroll<100
-    if (window.innerWidth < 700 && window.scrollY > 100) {
+    // For Screen<700 & Scroll<50
+    if (window.innerWidth < 700 && window.scrollY > 50) {
       event.target.style.color = "";
-    } else if (window.innerWidth < 700 && window.scrollY < 100) {
+    } else if (window.innerWidth < 700 && window.scrollY < 50) {
       event.target.style.color = "";
     }
   }
@@ -133,22 +133,22 @@ function NavBar(props) {
           </div>
           <div className="right-side-section" style={{ fontSize: props.rightSectionFontSize, fontFamily: props.navBarFontFamily, color: navBarTextColor, left: leftSlidePosition, backgroundColor: rightSideSectionBackgroundColorChange, transition: normalTransitionAnimation }}>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption1TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option1">
-              <Link to="/">{props.navBarOption1}</Link>
+              <Link to="/">Home</Link>
             </div>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption2TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option2">
-              <Link to="/skills">{props.navBarOption2}</Link>
+              <Link to="/skills">Skills</Link>
             </div>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption3TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option3">
-              <Link to="/services">{props.navBarOption3}</Link>
+              <Link to="/services">Services</Link>
             </div>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption4TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option4">
-              <Link to="/pricing">{props.navBarOption4}</Link>
+              <Link to="/pricing">Pricing</Link>
             </div>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption5TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option5">
-              <Link to="/projects">{props.navBarOption5}</Link>
+              <Link to="/projects">Projects</Link>
             </div>
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption6TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option6">
-              <Link to="/contact">{props.navBarOption6}</Link>
+              <Link to="/contact-us">Contact Us</Link>
             </div>
             <div style={{display:"none", filter: dropShadowToNavBarText, textDecoration: props.navBarOption6TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option6">
               <Link to="/react-portfolio"></Link>

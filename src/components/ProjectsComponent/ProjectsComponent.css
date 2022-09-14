@@ -27,13 +27,13 @@
 }
 
 .previous-project-component-section .projects-list-container .projects-boxes .image-preview-container {
-    margin-top: 40px;
+    margin: 40px 2px 0;
 }
 
 .previous-project-component-section .projects-list-container .projects-boxes .project-name {
     font-family: Mabook;
     font-size: 24px;
-    margin: 20px 0;
+    margin: 20px;
     color: crimson;
 }
 
@@ -60,6 +60,8 @@
     transform: scale(1.2);
     border: 1px solid crimson;
     box-shadow: 0 0 20px 0 rgba(220, 20, 60, 0.46);
+    background-color: grey;
+    color: white;
 }
 
 @media (max-width:1250px) {
@@ -77,6 +79,8 @@
 @media (max-width:740px) {
     .previous-project-component-section .projects-list-container .projects-boxes:hover {
         transform: scale(1);
+        background-color: white;
+        color: black;
     }
 }
 
