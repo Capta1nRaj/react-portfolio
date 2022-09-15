@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./FooterComponent.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 function FooterComponent(props) {
 
@@ -28,9 +26,6 @@ function FooterComponent(props) {
                         <div className="instagram-container"><a href={"https://www.instagram.com/capta1n_raj"} target="_blank" rel="noreferrer"><img className="instagram" src={require("../../images/footer-components-images/Instagram.png")} alt="" /></a></div>
                         <div className="-container"><a href={"https://twitter.com/capta1n_raj"} target="_blank" rel="noreferrer"><img className="twitter" src={require("../../images/footer-components-images/Twitter.png")} alt="" /></a></div>
                     </div>
-                    <a className="whatsapp-icon-container" href="/" target="_blank" alt="">
-                        <FontAwesomeIcon className="whatsapp-icon" icon={faWhatsapp} />
-                    </a>
                 </div>
             </section>
         </div>

@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import ContactUsScreenComponent from '../ContactUsScreenComponent/ContactUsScreenComponent';
 
 function NavBar(props) {
   // All UseState Function
@@ -62,12 +63,8 @@ function NavBar(props) {
     window.addEventListener("load", () => {
       scrollAndResizeEventListener();
     });
-    
-  // This Will Set Page On Top After Each Reload Or Page Switch
-    const canControlScrollRestoration = 'scrollRestoration' in window.history
-    if (canControlScrollRestoration) {
-      window.history.scrollRestoration = 'manual';
-    }
+
+    // This Will Set Page On Top After Each Reload Or Page Switch
     window.scrollTo(0, 0);
   }, []);
 
@@ -152,7 +149,7 @@ function NavBar(props) {
             <div style={{ filter: dropShadowToNavBarText, textDecoration: props.navBarOption6TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option6">
               <Link to="/contact-us">Contact Us</Link>
             </div>
-            <div style={{display:"none", filter: dropShadowToNavBarText, textDecoration: props.navBarOption6TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option6">
+            <div style={{ display: "none", filter: dropShadowToNavBarText, textDecoration: props.navBarOption6TextDecoration }} onMouseOver={MouseOver} onMouseOut={MouseOut} className="right-side-option-text option6">
               <Link to="/react-portfolio"></Link>
             </div>
           </div>
@@ -168,6 +165,7 @@ function NavBar(props) {
           </div>
         </div>
       </section>
+      <ContactUsScreenComponent/>
     </div>
   );
 }
