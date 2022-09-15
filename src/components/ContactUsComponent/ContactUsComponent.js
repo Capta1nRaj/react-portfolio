@@ -13,21 +13,25 @@ function ContactUsComponent() {
                     <div className="contact-form">
                         <div className="boxing">
                             <div className="left-section">
-                                <div className="line-1">Contact Us</div>
-                                <div className="line-2">Mob. No.:- 123-456-789-0</div>
+                                <div className="line-1">CONTACT US</div>
+                                <div className="line-2">CONTACT INFO:- 123-456-789-0</div>
                             </div>
                             <div className="right-section">
                                 <div className="input-name">
-                                    <input className="app-form-control" type="text" placeholder="Name" />
+                                    <input className="input-name-form" type="text" placeholder="Name" />
                                 </div>
                                 <div className="input-email">
-                                    <input type="email" placeholder="Email"/>
+                                    <input className="input-name-form" type="email" placeholder="Email" />
                                 </div>
                                 <div className="input-contact-number">
-                                    <input type="text" placeholder="Contact No" />
+                                    <input className="input-name-form" type="text" placeholder="Contact No" />
                                 </div>
                                 <div className="input-message">
-                                    <input type="text" placeholder="Message" />
+                                    <input className="input-name-form" type="text" placeholder="Message" />
+                                </div>
+                                <div className="buttons-container">
+                                    <input className="button-1" type="button" value="Reset" />
+                                    <input className="button-2" type="button" value="Send" />
                                 </div>
                             </div>
                         </div>
