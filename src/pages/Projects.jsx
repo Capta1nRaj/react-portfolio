@@ -1,4 +1,5 @@
 import React from 'react'
+import FooterComponent from '../components/FooterComponent/FooterComponent'
 import NavBar from '../components/NavBarComponent/NavBar'
 import ProjectsComponent from '../components/ProjectsComponent/ProjectsComponent'
 
@@ -25,6 +26,7 @@ function Projects() {
                 headingCaptionFontWeight="bold"
                 headingCaptionText="Here Are Few Of My Porjects I've Worked On Recently."
                 sliceValue= "100"/>
+        <FooterComponent/>
     </div>
   )
 }

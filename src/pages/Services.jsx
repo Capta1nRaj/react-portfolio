@@ -2,6 +2,7 @@ import React from 'react'
 import PlansComponent from '../components/PlansComponent/PlansComponent';
 import NavBar from "../components/NavBarComponent/NavBar";
 import ServicesOfferedComponent from '../components/ServicesOfferedComponent/ServicesOfferedComponent';
+import FooterComponent from '../components/FooterComponent/FooterComponent';
 
 function Services() {
     return (
@@ -31,6 +32,7 @@ function Services() {
             headingCaptionFontWeight="bold"
             headingCaptionText="We Really Hope You Will Like Our Plans & Pricing, We Have Cared About Your Budget Too. We Really Hope You Will Like Our Plans & Pricing, We Have Cared About Your Budget Too."
             />
+        <FooterComponent/>
         </div>
     )
 }

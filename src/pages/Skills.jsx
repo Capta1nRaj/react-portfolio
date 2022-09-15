@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from '../components/AboutMeComponent/AboutMe'
+import FooterComponent from '../components/FooterComponent/FooterComponent'
 import NavBar from '../components/NavBarComponent/NavBar'
 import SkillsSection from '../components/SkillsComponent/SkillsSection'
 
@@ -24,6 +25,7 @@ function Skills() {
                 skillsSectionFontFamily="Mabook"
                 mySkillsTextColor="crimson"
                 />
+            <FooterComponent/>
         </div>
     )
 }
