@@ -62,12 +62,14 @@ function NavBar(props) {
     window.addEventListener("load", () => {
       scrollAndResizeEventListener();
     });
-  }, []);
-
-  // This Will Set Page On Top After Each Reload
-  window.onbeforeunload = function () {
+    
+  // This Will Set Page On Top After Each Reload Or Page Switch
+    const canControlScrollRestoration = 'scrollRestoration' in window.history
+    if (canControlScrollRestoration) {
+      window.history.scrollRestoration = 'manual';
+    }
     window.scrollTo(0, 0);
-  };
+  }, []);
 
   // Expanding Menu When In Mobile/Tablet Mode
   function expandLeftSlidePosition() {

@@ -1,0 +1,67 @@
+.contact-us-component-section {
+    padding: 100px 50px;
+}
+
+.contact-us-component-section .max-width {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.contact-us-component-section .heading-container {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.contact-us-component-section .heading-container .line-1 {
+    font-family: Mabook;
+    font-size: 40px;
+    color: crimson;
+}
+
+.contact-us-component-section .heading-container .line-2 {
+    font-family: "Mont-ExtraLightDEMO";
+    font-weight: bold;
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.contact-us-component-section .contact-form {
+    border-radius: 15px;
+    padding: 20px 100px;
+}
+
+.contact-us-component-section .contact-form .boxing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us-component-section .contact-form .left-section .line-1 {
+    font-family: Mabook;
+    font-size: 40px;
+    color: crimson;
+}
+
+.contact-us-component-section .contact-form .left-section .line-2 {
+    font-family: Mabook;
+    font-size: 16px;
+    color: grey;
+    margin-top: 200px;
+}
+
+/* To See */
+.input-name {
+    margin-top: 20px;
+}
+
+.app-form-control {
+    width: 100%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color 0.2s;
+}

@@ -10,7 +10,8 @@ function ProjectComponent(props) {
             projectName: "Front End YouTube Clone",
             aboutProject: "YouTube Clone with Dark Mode, and Smooth Transitions, with a custom upload feature (not what you are expecting), to upload a custom video, just click on the upload icon, and to go back click on the YouTube logo or back button, thanks.",
             githubLink: "https://github.com/Capta1nRaj/youtube-clone",
-            demoLink: "https://capta1nraj.github.io/youtube-clone/"
+            demoLink: "https://capta1nraj.github.io/youtube-clone/",
+            filter: ""
         },
         {
             key: 1,
@@ -18,7 +19,8 @@ function ProjectComponent(props) {
             projectName: "Karafuru Clone",
             aboutProject: "Karafuru is home to 5555 generative arts where colors reign supreme. Leave the drab reality and enter the world of Karafuru by Museum of Toys.",
             githubLink: "https://github.com/Capta1nRaj/karafuru-clone",
-            demoLink: "https://capta1nraj.github.io/karafuru-clone/"
+            demoLink: "https://capta1nraj.github.io/karafuru-clone/",
+            filter: ""
         },
         {
             key: 2,
@@ -26,15 +28,17 @@ function ProjectComponent(props) {
             projectName: "Random Password Generator",
             aboutProject: "This project will have 2 types of Random Password Generator. Method 1 is just fixed with 12 values of password, whereas, Method 2 is customizable in which characters include, and exclude, and the length of the password can be customized. Both have copy clipboard function.",
             githubLink: "https://github.com/Capta1nRaj/random-password-generator",
-            demoLink: "https://capta1nraj.github.io/random-password-generator/"
+            demoLink: "https://capta1nraj.github.io/random-password-generator/",
+            filter: ""
         },
         {
             key: 3,
-            images: require("../../images/projects-component-images/react-portfolio.png"),
+            images: require("../../images/navigation-bar-component-images/logo.png"),
             projectName: "My Portfolio",
             aboutProject: "This is a project + portfolio based on ReactJS, I have already made a Portfolio with ReactJS but it was just for learning Purpose.",
             githubLink: "https://github.com/Capta1nRaj/react-portfolio",
-            demoLink: "https://capta1nraj.github.io/react-portfolio/"
+            demoLink: "https://capta1nraj.github.io/react-portfolio/",
+            filter: "invert(100%)"
         },
         {
             key: 4,
@@ -42,7 +46,8 @@ function ProjectComponent(props) {
             projectName: "Upcoming Projects",
             aboutProject: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi non, nam alias et eveniet suscipit consequatur",
             githubLink: "/",
-            demoLink: "/"
+            demoLink: "/",
+            filter: ""
         },
         {
             key: 5,
@@ -50,7 +55,8 @@ function ProjectComponent(props) {
             projectName: "Upcoming Projects",
             aboutProject: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi non, nam alias et eveniet suscipit consequatur",
             githubLink: "/",
-            demoLink: "/"
+            demoLink: "/",
+            filter: ""
         },
     ];
 
@@ -71,7 +77,7 @@ function ProjectComponent(props) {
                             return (
                                 <div className="projects-boxes" key={key}>
                                     <div className="image-preview-container" style={{ display: "flex", justifyContent: "center" }}>
-                                        <img src={project.images} alt="" style={{ width: "250px" }} />
+                                        <img src={project.images} alt="" style={{ width: "150px", filter:project.filter }} />
                                     </div>
                                     <div className="about-project-container">
                                         <div className="project-name">{project.projectName}</div>
@@ -88,7 +94,7 @@ function ProjectComponent(props) {
                                                     onHoverBackGroundColor="transparent"
                                                     color="white"
                                                     onHoverColor="crimson"
-                                                    padding="15px 60px"
+                                                    padding="15px 30px"
                                                     borderRadius="6px"
                                                     fontFamily="Mont-HeavyDEMO"
                                                     fontSize="20px"
@@ -106,7 +112,7 @@ function ProjectComponent(props) {
                                                     onHoverBackGroundColor="transparent"
                                                     color="white"
                                                     onHoverColor="crimson"
-                                                    padding="15px 60px"
+                                                    padding="15px 40px"
                                                     borderRadius="6px"
                                                     fontFamily="Mont-HeavyDEMO"
                                                     fontSize="20px"

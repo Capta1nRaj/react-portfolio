@@ -60,8 +60,6 @@
     transform: scale(1.2);
     border: 1px solid crimson;
     box-shadow: 0 0 20px 0 rgba(220, 20, 60, 0.46);
-    background-color: grey;
-    color: white;
 }
 
 @media (max-width:1250px) {
