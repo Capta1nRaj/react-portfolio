@@ -42,11 +42,11 @@ function ProjectComponent(props) {
         },
         {
             key: 4,
-            images: require("../../images/projects-component-images/upcoming-projects.png"),
-            projectName: "Upcoming Projects",
-            aboutProject: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi non, nam alias et eveniet suscipit consequatur",
-            githubLink: "/",
-            demoLink: "/",
+            images: require("../../images/projects-component-images/robottoz.png"),
+            projectName: "Robottoz Clone",
+            aboutProject: "Just A Simple Single Page NFT Website Template. Robottoz is the 1st MetaBlub release, a NFT collection of 4444 unique handdrawn 50's art with traits like any other robot out there.",
+            githubLink: "https://github.com/Capta1nRaj/robottoz-clone",
+            demoLink: "https://capta1nraj.github.io/robottoz-clone/",
             filter: ""
         },
         {
