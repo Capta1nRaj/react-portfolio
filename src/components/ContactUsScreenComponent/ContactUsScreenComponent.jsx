@@ -6,7 +6,7 @@ import {faAt} from "@fortawesome/free-solid-svg-icons";
 function ContactUsScreenComponent() {
     return (
         <div>
-            <a className="whatsapp-icon-container" href="#" alt="">
+            <a className="whatsapp-icon-container" href=".contact-us" alt="">
                 <FontAwesomeIcon className="whatsapp-icon" icon={faAt}/>
             </a>
         </div>
