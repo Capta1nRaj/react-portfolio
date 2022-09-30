@@ -3,7 +3,6 @@ import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import ContactUsScreenComponent from '../ContactUsScreenComponent/ContactUsScreenComponent';
 
 function NavBar(props) {
   // All UseState Function
@@ -165,7 +164,6 @@ function NavBar(props) {
           </div>
         </div>
       </section>
-      <ContactUsScreenComponent/>
     </div>
   );
 }

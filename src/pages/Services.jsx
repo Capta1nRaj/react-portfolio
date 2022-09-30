@@ -3,6 +3,7 @@ import PlansComponent from '../components/PlansComponent/PlansComponent';
 import NavBar from "../components/NavBarComponent/NavBar";
 import ServicesOfferedComponent from '../components/ServicesOfferedComponent/ServicesOfferedComponent';
 import FooterComponent from '../components/FooterComponent/FooterComponent';
+import ContactUsScreenComponent from '../components/ContactUsScreenComponent/ContactUsScreenComponent';
 
 function Services() {
     return (
@@ -33,6 +34,7 @@ function Services() {
             headingCaptionText="We Really Hope You Will Like Our Plans & Pricing, We Have Cared About Your Budget Too. We Really Hope You Will Like Our Plans & Pricing, We Have Cared About Your Budget Too."
             />
         <FooterComponent/>
+        <ContactUsScreenComponent/>
         </div>
     )
 }

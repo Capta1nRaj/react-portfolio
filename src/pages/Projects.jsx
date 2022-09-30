@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactUsScreenComponent from '../components/ContactUsScreenComponent/ContactUsScreenComponent'
 import FooterComponent from '../components/FooterComponent/FooterComponent'
 import NavBar from '../components/NavBarComponent/NavBar'
 import ProjectsComponent from '../components/ProjectsComponent/ProjectsComponent'
@@ -27,6 +28,7 @@ function Projects() {
                 headingCaptionText="Here Are Few Of My Porjects I've Worked On Recently."
                 sliceValue= "100"/>
         <FooterComponent/>
+        <ContactUsScreenComponent/>
     </div>
   )
 }

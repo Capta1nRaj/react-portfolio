@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactUsScreenComponent from '../components/ContactUsScreenComponent/ContactUsScreenComponent'
 import FooterComponent from '../components/FooterComponent/FooterComponent'
 import NavBar from '../components/NavBarComponent/NavBar'
 import PlansComponent from "../components/PlansComponent/PlansComponent"
@@ -45,6 +46,7 @@ function Pricing() {
             sliceValue= "3"
             />
             <FooterComponent/>
+            <ContactUsScreenComponent/>
         </div>
     )
 }

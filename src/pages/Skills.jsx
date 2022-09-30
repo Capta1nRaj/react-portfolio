@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from '../components/AboutMeComponent/AboutMe'
+import ContactUsScreenComponent from '../components/ContactUsScreenComponent/ContactUsScreenComponent'
 import FooterComponent from '../components/FooterComponent/FooterComponent'
 import NavBar from '../components/NavBarComponent/NavBar'
 import SkillsSection from '../components/SkillsComponent/SkillsSection'
@@ -26,6 +27,7 @@ function Skills() {
                 mySkillsTextColor="crimson"
                 />
             <FooterComponent/>
+            <ContactUsScreenComponent/>
         </div>
     )
 }
