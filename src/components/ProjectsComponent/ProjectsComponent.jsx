@@ -17,7 +17,7 @@ function ProjectComponent(props) {
                         </div>
                     </div>
                     <div className="projects-list-container">
-                        {projects.slice(0, props.sliceValue).map((project, key) => {
+                        {projects.slice(props.startingSliceValie, props.endingSliceValue).map((project, key) => {
                             return (
                                 <div className="projects-boxes" key={key}>
                                     <div className="image-preview-container" style={{ display: "flex", justifyContent: "center" }}>

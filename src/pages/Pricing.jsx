@@ -43,7 +43,8 @@ function Pricing() {
             headingCaptionMargin="20px 0 50px 0"
             headingCaptionFontWeight="bold"
             headingCaptionText="Here Are Few Of My Porjects I've Worked On Recently."
-            sliceValue= "3"
+            startingSliceValie="2"
+            endingSliceValue= "5"
             />
             <FooterComponent/>
             <ContactUsScreenComponent/>
