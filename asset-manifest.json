@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.28f1e9c2.css",
-    "main.js": "/static/js/main.d1a0aa9b.js",
+    "main.css": "/static/css/main.fb0538c7.css",
+    "main.js": "/static/js/main.a722a28b.js",
     "static/media/robottoz.png": "/static/media/robottoz.5199ee8386a6e9b12b97.png",
-    "static/media/resume.pdf": "/static/media/resume.63dba398dc8ea91a1825.pdf",
-    "static/media/alphamints-labs.png": "/static/media/alphamints-labs.35b3f942e175c0bae4e1.png",
+    "static/media/resume.pdf": "/static/media/resume.361f04c93379b54c97ca.pdf",
     "static/media/Mont-HeavyDEMO.otf": "/static/media/Mont-HeavyDEMO.a1c041a8d8e27fc771db.otf",
     "static/media/karafuru-clone.png": "/static/media/karafuru-clone.0778915aad262315b92e.png",
     "static/media/Mont-ExtraLightDEMO.otf": "/static/media/Mont-ExtraLightDEMO.7500479912b782061a72.otf",
@@ -12,6 +11,7 @@
     "static/media/random-password-generator.png": "/static/media/random-password-generator.75d42d805176064280b5.png",
     "static/media/Instagram.png": "/static/media/Instagram.64a26139188905e7fd37.png",
     "static/media/logo.png": "/static/media/logo.c71aa850c8a0f50899f8.png",
+    "static/media/upcoming-projects.png": "/static/media/upcoming-projects.de993d2a722e371ff341.png",
     "static/media/Design.png": "/static/media/Design.6fb6fb728c8e572f08de.png",
     "static/media/Technology.png": "/static/media/Technology.6e5a8e7e564336c706c4.png",
     "static/media/GitHub.png": "/static/media/GitHub.3b68969501f37258a491.png",
@@ -23,11 +23,11 @@
     "static/media/Linkedin.png": "/static/media/Linkedin.836845d557d64fe6f32c.png",
     "static/media/YouTube.png": "/static/media/YouTube.c51b2451cae4a7a5f6c7.png",
     "index.html": "/index.html",
-    "main.28f1e9c2.css.map": "/static/css/main.28f1e9c2.css.map",
-    "main.d1a0aa9b.js.map": "/static/js/main.d1a0aa9b.js.map"
+    "main.fb0538c7.css.map": "/static/css/main.fb0538c7.css.map",
+    "main.a722a28b.js.map": "/static/js/main.a722a28b.js.map"
   },
   "entrypoints": [
-    "static/css/main.28f1e9c2.css",
-    "static/js/main.d1a0aa9b.js"
+    "static/css/main.fb0538c7.css",
+    "static/js/main.a722a28b.js"
   ]
 }
